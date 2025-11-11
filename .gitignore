@@ -1,0 +1,48 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch / TensorFlow / ML
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.tflite
+*.onnx
+results/
+tmp/
+cache/
+
+# Dataset caches / Hugging Face datasets
+*.arrow
+*.parquet
+*.jsonl
+*.csv
+*.zip
+datasets/
+
+# Logs
+*.log
+wandb/
+mlruns/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
